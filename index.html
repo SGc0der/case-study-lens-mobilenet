@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <title>Google vs. Ml5</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+            <h3 class="uppercase text-white btn btn-danger header">case study #1</h3>
+            <h4 class="uppercase text-primary"><i>google lens vs mobilenet</i></h4>
+            <br>
+            <hr width="85%">
+            <span>
+                <h5 class="uppercase lens">google lens</h5>
+                <img src="lens.png" class="lens" width="50px" height="50px">
+                <h3 class="text-warning lens">vs</h3>
+                <button class="uppercase btn btn-primary text-muted lens" id="mobilenet">mobilenet</button>
+            </span>
+            <br>
+            <h3 class="uppercase survey">survey</h3>
+            <hr>
+        </center>
+        <div class="container">
+            <div class=" col-lg-6">
+                <p class="text-success">Q. Whom do you think will win?</p>
+                <p class="text-info uppercase">Surveyed on 10 students of MIS with some code experience.</p>
+                <br>
+                <br>
+                <p class="uppercase">uh oh, looks like things aren't turning out well for mobilenet...</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="graph">
+                    <button class="btn btn-warning mbnet_btn"></button>
+                    <button class="btn btn-success lens_btn"></button>
+                </div>
+                <div>
+                    <hr>
+                    <div class="graph">
+                        <p class="uppercase btn btn-warning mbnet_btn1">mobilenet</p>
+                        <p class="uppercase btn btn-success lens_btn1">lens</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr width="80%">
+            <h3 class="page-header text-muted">Observations on 10 items</h3>
+            <div class="objects col-md-12">
+                <p class="text-left text-white test_label">Test Image</p>
+                <img class="col-md-4 object" src="Rover Bottle - VAHDAM India (1).webp">
+                <div class="col-md-8">
+                    <label class="google col-md-4">Output on <label class="text-info">Lens</label> - <label class="text-danger">Bottle</label></label>
+                    <label class="google col-md-4">Output on <label class="text-info">Mobilenet</label> - <label class="text-danger">Bottle</label></label>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                        <label id="result">Result-</label>
+                        <hr>
+                </div>
+            </div>
+            <br>
+            <div class="objects col-md-12">
+                <p class="text-left text-white test_label">Test Image</p>
+                <img class="col-md-4 object" src="download (5).jpeg">
+                <div class="col-md-8">
+                    <label class="google">Output on <label class="text-info">Google Lens</label> - <label class="text-danger">Person</label></label>
+                    <label class="google">Output on <label class="text-info">Mobilenet</label> - <label class="text-danger">Person</label></label>
+                    <br>
+                    <center>
+                        <label id="result">Result-</label>
+                        <hr>
+                    </center>
+                </div>
+            </div>
+            <br>
+            <div class="objects col-md-12">
+                <p class="text-left text-white test_label">Test Image</p>
+                <img class="col-md-4 object" src="images (1).jpeg">
+                <div class="col-md-8">
+                    <label class="google">Output on <label class="text-info">Google Lens</label> - <label class="text-danger">Water bottle</label></label>
+                    <label class="google">Output on <label class="text-info">Mobilenet</label> - <label class="text-danger">Water bottle</label></label>
+                    <br>
+                    <center>
+                        <label id="result">Result-</label>
+                        <hr>
+                    </center>
+                </div>
+            </div>
+            <br>
+            <div class="objects col-md-12">
+                <p class="text-left text-white test_label">Test Image</p>
+                <img class="col-md-4 object" src="images (2).jpeg">
+                <div class="col-md-8">
+                    <label class="google">Output on <label class="text-info">Google Lens</label> - <label class="text-danger">Water bottle</label></label>
+                    <label class="google">Output on <label class="text-info">Mobilenet</label> - <label class="text-danger">Water bottle</label></label>
+                    <br>
+                    <center>
+                        <label id="result">Result-</label>
+                        <hr>
+                    </center>
+                </div>
+            </div>
+            <br>
+            <div class="objects col-md-12">
+                <p class="text-left text-white test_label">Test Image</p>
+                <img class="col-md-4 object" src="getty_481292845_77896.jpg">
+                <div class="col-md-8">
+                    <label class="google">Output on <label class="text-info">Google Lens</label> - <label class="text-danger">Water bottle</label></label>
+                    <label class="google">Output on <label class="text-info">Mobilenet</label> - <label class="text-danger">Water bottle</label></label>
+                    <br>
+                    <center>
+                        <label id="result">Result-</label>
+                        <hr>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </body>
+    <!--very first heading red button with white text insted of text-danger-->
+    <!--write no.s on top of graphs-->
+</html>
